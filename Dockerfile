@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:x86_64-ubuntu-22.04
+FROM jupyter/base-notebook@sha256:2d799fdfda8926ccec5c0791a8f01b456592e01b1e6bbf88fdb732888ae78b49
 
 LABEL maintainer="buarki https://github.com/buarki"
 LABEL githubrepo=""
