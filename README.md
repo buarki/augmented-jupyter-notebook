@@ -3,7 +3,7 @@
 ## Basic usage
 
 ```sh
-docker run -it --rm -p 8888:8888 -e JUPYTER_TOKEN=password augmented-jupyter-notebook
+docker run -it --rm -p 8888:8888 -e JUPYTER_TOKEN=password buarki/augmented-jupyter-notebook
 ```
 
 Then you can open `http://localhost:8888/` on a browser and it'll ask you for a token or password. If you just ran above command you can pass `password` as param.
